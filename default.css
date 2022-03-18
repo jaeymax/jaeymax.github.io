@@ -53,12 +53,14 @@ p, li, span, label, input, textarea{
 .s1{
     background-color: var(--mainColor);
     border-bottom:1px solid var(--borderColor);
+    width:100%,
     /* overflow: auto; */
 }
 
 .s2{
     background-color: var(--secondaryColor);
     border-bottom:1px solid var(--borderColor);
+    width:100%,
     /* overflow: auto; */
 }
 
@@ -209,19 +211,24 @@ p, li, span, label, input, textarea{
 
 #preview-shadow{
     background-color:var(--previewShadow);
-    width: 300px;
+    width: 250px;
     height: 180px;
     padding-left: 30px;
     padding-top:30px;
 }
 
 #preview{
-    width: 300px;
+    width: 250px;
+    height: 180px;
     border:1.5px solid #17a2b8;
     background-color: var(--previewBg);
     padding: 15px;
     position: relative;
 }
+
+/* .text{
+    line-height: 2rem;
+} */
 
 .corner{
     width: 7px;
@@ -372,5 +379,13 @@ p, li, span, label, input, textarea{
    }
    .about-wrapper{
        grid-template-columns: 1fr;
+       text-align: center;
+       line-height: 2rem;
+   }
+   #preview{
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
    }
 }
