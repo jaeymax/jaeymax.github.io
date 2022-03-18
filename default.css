@@ -38,12 +38,12 @@ ul{
     list-style: none;
 }
 
-h1{font-size: 56px;}
-h2{font-size: 36px;}
-h3{font-size: 28px;}
-h4{font-size: 24px;}
-h5{font-size:20px}
-h6{font-size: 16px;}
+h1{font-size: 56px;font-family: 'Lobster';}
+h2{font-size: 36px;font-family: 'Lobster';}
+h3{font-size: 28px;font-family: 'Lobster';}
+h4{font-size: 24px;font-family: 'Lobster';}
+h5{font-size:20px;font-family: 'Lobster';}
+h6{font-size: 16px;font-family: 'Lobster';}
 
 p, li, span, label, input, textarea{
  color:var(--secondaryText);
@@ -375,14 +375,22 @@ p, li, span, label, input, textarea{
        'right-column'
    }
    .right-column{
+       display: flex;
        justify-content: center;
+       align-items: center;
    }
    .about-wrapper{
        grid-template-columns: 1fr;
        text-align: center;
        line-height: 2rem;
    }
+   #preview-shadow{
+       padding: 0;
+       background-color: transparent;
+   }
+
    #preview{
+       padding: 0;
        text-align: center;
        display: flex;
        align-items: center;
