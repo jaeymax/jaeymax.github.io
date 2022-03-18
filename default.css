@@ -17,7 +17,7 @@
 } */
 
 *{
-    transition: all 500ms ease-in-out;
+    transition: all 300ms ease-in-out;
     /* margin: 0; */
     padding: 0;
     margin: 0;
@@ -387,6 +387,7 @@ p, li, span, label, input, textarea{
    #preview-shadow{
        padding: 0;
        background-color: transparent;
+       line-height: 2rem;
    }
 
    #preview{
